@@ -1,0 +1,6 @@
+[
+  "test_checkout.py::test_checkout_returns_none",
+  "test_checkout.py::test_checkout_returns_1000",
+  "test_checkout.py::test_checkout_returns_1010",
+  "test_checkout.py::test_checkout_returns_15"
+]

@@ -1,0 +1,5 @@
+{
+  "test_checkout_options.py": true,
+  "test_checkoutoptions.py::test_checkout_options_returns_1005": true,
+  "test_checkoutoptions.py::test_checkout_options_withinsurancetwice_returns_1005": true
+}
