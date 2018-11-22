@@ -55,6 +55,7 @@ class ShoppingCart:
     
     products_list = []
     services_list = []
+    used_services = []
        
     def __init__(self,customer_tier):
         self.customer_tier = customer_tier
@@ -63,8 +64,9 @@ class ShoppingCart:
         self.products_list.append(product.price)
     
     def add_service(self,service):
-        if service not in self.services_list:
+        if service not in self.used_services:
             self.services_list.append(service.price)
+            self.used_services.append(service)
             
     def checkout(self):
         total = (sum(self.products_list) + sum(self.services_list))
@@ -75,6 +77,8 @@ class ShoppingCart:
 my_cart = ShoppingCart(silver)
 my_cart.add_product(guitar)
 my_cart.add_service(insurance)
+my_cart.add_service(insurance)
+
 
 my_cart.checkout()
 
