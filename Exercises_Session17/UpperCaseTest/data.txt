@@ -1,0 +1,3 @@
+pepe,garcia,28
+malik,tazi,20
+omar,tazi,20
